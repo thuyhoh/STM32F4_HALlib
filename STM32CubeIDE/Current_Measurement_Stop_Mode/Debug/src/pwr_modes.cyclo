@@ -1,0 +1,8 @@
+../src/pwr_modes.c:52:6:DisableAllAHBxAPBxPeriClocks	1
+../src/pwr_modes.c:63:6:EnableAllAHBxAPBxPeriClocks	1
+../src/pwr_modes.c:87:6:PWR_StopMainRegFlashStop	1
+../src/pwr_modes.c:115:6:PWR_StopMainRegFlashPwrDown	1
+../src/pwr_modes.c:143:6:PWR_StopLowPwrRegFlashStop	1
+../src/pwr_modes.c:171:6:PWR_StopLowPwrRegFlashPwrDown	1
+../src/pwr_modes.c:199:6:PWR_StopMainRegUnderDriveFlashPwrDown	1
+../src/pwr_modes.c:229:6:PWR_StopLowPwrRegUnderDriveFlashPwrDown	1

@@ -1,0 +1,2 @@
+../src/system_stm32f4xx.c:562:6:SystemCoreClockUpdate	7
+../src/system_stm32f4xx.c:656:13:SetSysClock	9

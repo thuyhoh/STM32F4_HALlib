@@ -1,0 +1,10 @@
+../src/main.c:56:5:main	8	static
+../src/main.c:84:6:Measure_Stop	8	static
+../src/main.c:194:6:GPIO_AnalogConfig	16	static
+../src/main.c:233:13:LedsConfig	16	static
+../src/main.c:258:6:ButtonPinInt_configuration	32	static
+../src/main.c:320:6:WaitUser_PushBotton	8	static
+../src/main.c:333:13:Mode_Exit	8	static
+../src/main.c:370:6:Delay	16	static
+../src/main.c:376:7:HAL_GPIO_EXTI_Callback	16	static
+../src/main.c:389:6:_Error_Handler	16	static
