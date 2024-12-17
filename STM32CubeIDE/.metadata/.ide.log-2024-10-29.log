@@ -1,0 +1,126 @@
+2024-10-30 00:00:21,254 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-30 00:00:22,821 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 374160056 Bytes (1021313024)
+2024-10-30 00:00:24,520 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 399898440 Bytes (1021313024)
+2024-10-30 00:00:26,662 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 439698104 Bytes (1021313024)
+2024-10-30 00:00:26,902 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-10-30 00:00:26,902 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-10-30 00:00:26,903 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-10-30 00:00:26,903 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USB_OTG_FS
+2024-10-30 00:00:26,903 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-10-30 00:00:26,903 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-10-30 00:00:26,903 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-10-30 00:00:26,904 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-10-30 00:00:27,023 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\license.tmp_save
+2024-10-30 00:00:27,130 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\license.tmp
+2024-10-30 00:00:27,175 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\gpio.tmp_save
+2024-10-30 00:00:27,278 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\gpio.tmp
+2024-10-30 00:00:27,537 [WARN] IPConfigManager:3005 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-10-30 00:00:27,574 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\stm32f4xx_it.c_save
+2024-10-30 00:00:27,670 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\stm32f4xx_it.c
+2024-10-30 00:00:27,678 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\stm32f4xx_it.h_save
+2024-10-30 00:00:27,771 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\stm32f4xx_it.h
+2024-10-30 00:00:27,813 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\stm32f4xx_hal_msp.c_save
+2024-10-30 00:00:28,005 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\stm32f4xx_hal_msp.c
+2024-10-30 00:00:28,013 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\system.tmp_save
+2024-10-30 00:00:28,096 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\system.tmp
+2024-10-30 00:00:28,141 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-10-30 00:00:28,267 [INFO] CodeEngine:335 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\stm32f4xx_hal_conf.h
+2024-10-30 00:00:28,330 [WARN] IPConfigManager:3554 - IP not found : TIM
+2024-10-30 00:00:28,331 [WARN] IPConfigManager:3554 - IP not found : USB_OTG
+2024-10-30 00:00:28,331 [WARN] CodeGenerator:4002 - IP not found : null
+2024-10-30 00:00:28,332 [WARN] CodeGenerator:4002 - IP not found : null
+2024-10-30 00:00:28,363 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\main.h_save
+2024-10-30 00:00:28,468 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\main.h
+2024-10-30 00:00:28,508 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\main.c_save
+2024-10-30 00:00:28,683 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\main.c
+2024-10-30 00:00:29,175 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 223mS.
+2024-10-30 00:00:29,180 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-10-30 00:00:29,269 [INFO] ConfigFileManager:1531 - The Die is : DIE413
+2024-10-30 00:00:30,248 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1069mS.
+2024-10-30 00:00:30,249 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-10-30 00:00:30,250 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-10-30 00:06:41,464 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-30 00:06:42,769 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 901469192 Bytes (1021313024)
+2024-10-30 00:06:52,760 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-30 00:06:54,994 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-30 00:06:55,424 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 635499000 Bytes (1021313024)
+2024-10-30 00:06:56,788 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 659094008 Bytes (1021313024)
+2024-10-30 00:06:58,280 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 698939896 Bytes (1021313024)
+2024-10-30 00:06:58,543 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-10-30 00:06:58,543 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-10-30 00:06:58,543 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-10-30 00:06:58,543 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USB_OTG_FS
+2024-10-30 00:06:58,543 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-10-30 00:06:58,543 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-10-30 00:06:58,544 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-10-30 00:06:58,545 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-10-30 00:06:58,655 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\license.tmp_save
+2024-10-30 00:06:58,753 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\license.tmp
+2024-10-30 00:06:58,795 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\gpio.tmp_save
+2024-10-30 00:06:58,887 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\gpio.tmp
+2024-10-30 00:06:59,160 [WARN] IPConfigManager:3005 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-10-30 00:06:59,215 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\stm32f4xx_it.c_save
+2024-10-30 00:06:59,316 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\stm32f4xx_it.c
+2024-10-30 00:06:59,323 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\stm32f4xx_it.h_save
+2024-10-30 00:06:59,398 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\stm32f4xx_it.h
+2024-10-30 00:06:59,439 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\stm32f4xx_hal_msp.c_save
+2024-10-30 00:06:59,589 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\stm32f4xx_hal_msp.c
+2024-10-30 00:06:59,596 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\system.tmp_save
+2024-10-30 00:06:59,654 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\system.tmp
+2024-10-30 00:06:59,679 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-10-30 00:06:59,793 [INFO] CodeEngine:335 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\stm32f4xx_hal_conf.h
+2024-10-30 00:06:59,837 [WARN] IPConfigManager:3554 - IP not found : TIM
+2024-10-30 00:06:59,837 [WARN] IPConfigManager:3554 - IP not found : USB_OTG
+2024-10-30 00:06:59,837 [WARN] CodeGenerator:4002 - IP not found : null
+2024-10-30 00:06:59,838 [WARN] CodeGenerator:4002 - IP not found : null
+2024-10-30 00:06:59,858 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\main.h_save
+2024-10-30 00:06:59,955 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\main.h
+2024-10-30 00:06:59,974 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\main.c_save
+2024-10-30 00:07:00,154 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\main.c
+2024-10-30 00:07:00,577 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 200mS.
+2024-10-30 00:07:00,580 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-10-30 00:07:00,682 [INFO] ConfigFileManager:1531 - The Die is : DIE413
+2024-10-30 00:07:01,529 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 949mS.
+2024-10-30 00:07:01,531 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-10-30 00:07:01,532 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-10-30 00:08:12,952 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-30 00:08:14,632 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 680065528 Bytes (1021313024)
+2024-10-30 00:08:17,491 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 706279928 Bytes (1021313024)
+2024-10-30 00:08:19,043 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 746388152 Bytes (1021313024)
+2024-10-30 00:08:19,293 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-10-30 00:08:19,294 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-10-30 00:08:19,294 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-10-30 00:08:19,294 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USB_OTG_FS
+2024-10-30 00:08:19,294 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-10-30 00:08:19,294 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-10-30 00:08:19,295 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-10-30 00:08:19,297 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-10-30 00:08:19,490 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\license.tmp_save
+2024-10-30 00:08:19,600 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\license.tmp
+2024-10-30 00:08:19,661 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\gpio.tmp_save
+2024-10-30 00:08:19,770 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\gpio.tmp
+2024-10-30 00:08:20,037 [WARN] IPConfigManager:3005 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-10-30 00:08:20,078 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\stm32f4xx_it.c_save
+2024-10-30 00:08:20,168 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\stm32f4xx_it.c
+2024-10-30 00:08:20,174 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\stm32f4xx_it.h_save
+2024-10-30 00:08:20,263 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\stm32f4xx_it.h
+2024-10-30 00:08:20,293 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\stm32f4xx_hal_msp.c_save
+2024-10-30 00:08:20,479 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\stm32f4xx_hal_msp.c
+2024-10-30 00:08:20,489 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\system.tmp_save
+2024-10-30 00:08:20,601 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\MXTmpFiles\system.tmp
+2024-10-30 00:08:20,634 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-10-30 00:08:20,793 [INFO] CodeEngine:335 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\stm32f4xx_hal_conf.h
+2024-10-30 00:08:20,876 [WARN] IPConfigManager:3554 - IP not found : TIM
+2024-10-30 00:08:20,876 [WARN] IPConfigManager:3554 - IP not found : USB_OTG
+2024-10-30 00:08:20,877 [WARN] CodeGenerator:4002 - IP not found : null
+2024-10-30 00:08:20,877 [WARN] CodeGenerator:4002 - IP not found : null
+2024-10-30 00:08:20,905 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\main.h_save
+2024-10-30 00:08:21,002 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Inc\main.h
+2024-10-30 00:08:21,037 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\main.c_save
+2024-10-30 00:08:21,284 [INFO] CodeEngine:279 - Generated code: E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\010_timer_PWM\Core\Src\main.c
+2024-10-30 00:08:21,803 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 222mS.
+2024-10-30 00:08:21,807 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-10-30 00:08:22,006 [INFO] ConfigFileManager:1531 - The Die is : DIE413
+2024-10-30 00:08:23,086 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1279mS.
+2024-10-30 00:08:23,087 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-10-30 00:08:23,089 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.

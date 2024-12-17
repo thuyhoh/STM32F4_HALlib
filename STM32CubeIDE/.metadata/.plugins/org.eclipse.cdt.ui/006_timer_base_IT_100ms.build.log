@@ -1,0 +1,30 @@
+19:37:51 **** Incremental Build of configuration Debug for project 006_timer_base_IT_100ms ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:28:28: error: 'SYS_CLOCK_FREQ_50MHZ' undeclared (first use in this function); did you mean 'SYS_CLK_FREQ_50MHZ'?
+   28 |         SystemClock_Config(SYS_CLOCK_FREQ_50MHZ);
+      |                            ^~~~~~~~~~~~~~~~~~~~
+      |                            SYS_CLK_FREQ_50MHZ
+../Core/Src/main.c:28:28: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: In function 'SystemClock_Config':
+../Core/Src/main.c:63:24: error: 'RCC_PLLInitTypeDef' has no member named 'PLLR'; did you mean 'PLLM'?
+   63 |           osc_init.PLL.PLLR = 2;
+      |                        ^~~~
+      |                        PLLM
+../Core/Src/main.c:75:24: error: 'RCC_PLLInitTypeDef' has no member named 'PLLR'; did you mean 'PLLM'?
+   75 |           osc_init.PLL.PLLR = 2;
+      |                        ^~~~
+      |                        PLLM
+../Core/Src/main.c:87:24: error: 'RCC_PLLInitTypeDef' has no member named 'PLLR'; did you mean 'PLLM'?
+   87 |           osc_init.PLL.PLLR = 2;
+      |                        ^~~~
+      |                        PLLM
+../Core/Src/main.c:95:8: error: 'sys_clk_freq_180mhz' undeclared (first use in this function)
+   95 |   case sys_clk_freq_180mhz:
+      |        ^~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+19:37:51 Build Failed. 6 errors, 0 warnings. (took 288ms)
+

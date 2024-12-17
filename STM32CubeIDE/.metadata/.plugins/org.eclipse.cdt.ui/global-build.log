@@ -1,0 +1,20 @@
+12:47:10 **** Build of configuration Debug for project 017_Current_Measurement_Run_Mode ****
+make all 
+arm-none-eabi-gcc "../src/core_portme.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Run_Mode/StdPeriph_Driver/inc" -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Run_Mode/inc" -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Run_Mode/CMSIS/device" -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Run_Mode/CMSIS/core" -O0 -ffunction-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/core_portme.d" -MT"src/core_portme.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/core_portme.o"
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Run_Mode/StdPeriph_Driver/inc" -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Run_Mode/inc" -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Run_Mode/CMSIS/device" -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Run_Mode/CMSIS/core" -O0 -ffunction-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+arm-none-eabi-gcc "../src/pwr_modes.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Run_Mode/StdPeriph_Driver/inc" -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Run_Mode/inc" -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Run_Mode/CMSIS/device" -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Run_Mode/CMSIS/core" -O0 -ffunction-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/pwr_modes.d" -MT"src/pwr_modes.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/pwr_modes.o"
+arm-none-eabi-gcc -o "017_Current_Measurement_Run_Mode.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\Current_Measurement_Run_Mode\LinkerScript.ld" --specs=nosys.specs -Wl,-Map="017_Current_Measurement_Run_Mode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: 017_Current_Measurement_Run_Mode.elf has a LOAD segment with RWX permissions
+Finished building target: 017_Current_Measurement_Run_Mode.elf
+ 
+arm-none-eabi-size  017_Current_Measurement_Run_Mode.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13324	    132	   3100	  16556	   40ac	017_Current_Measurement_Run_Mode.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S 017_Current_Measurement_Run_Mode.elf  > "017_Current_Measurement_Run_Mode.list"
+Finished building: 017_Current_Measurement_Run_Mode.list
+ 
+arm-none-eabi-objcopy  -O binary 017_Current_Measurement_Run_Mode.elf  "017_Current_Measurement_Run_Mode.bin"
+Finished building: 017_Current_Measurement_Run_Mode.bin
+ 

@@ -1,0 +1,5 @@
+1731223288698	Delete resource '011_bxCan_Loopbackmode'
+1731226229966	Rename resource '011_bxCan_LoopBackMode_Filter'
+1731573910128	Rename resource '012_bxCan_NormalMode'
+1731573949553	Delete resource '012_bxCan_LoopBackMode_IT/011_bxCan_LoopBackMode.launch'
+1731573956638	Delete 2 resources

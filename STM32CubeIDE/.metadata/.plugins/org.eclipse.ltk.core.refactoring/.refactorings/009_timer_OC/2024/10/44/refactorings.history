@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;009_timer_OC/008_timer_IC.ioc&apos; to &apos;009_timer_OC.ioc&apos;" description="Rename resource &apos;008_timer_IC.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="008_timer_IC.ioc" name="009_timer_OC.ioc" stamp="1730086803971" updateReferences="true"/>
+</session>

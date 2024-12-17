@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;017_Current_Measurement_Run_Mode/Current_Measurement_Run_Mode_converter.log&apos; to &apos;017_Current_Measurement_Run_Mode_converter.log&apos;" description="Rename resource &apos;Current_Measurement_Run_Mode_converter.log&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Current_Measurement_Run_Mode_converter.log" name="017_Current_Measurement_Run_Mode_converter.log" stamp="1732945623531" updateReferences="true"/>
+</session>

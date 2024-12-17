@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;012_bxCan_LoopBackMode_IT/011_bxCan_LoopBackMode.ioc&apos; to &apos;012_bxCan_LoopBackMode_IT.ioc&apos;" description="Rename resource &apos;011_bxCan_LoopBackMode.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="011_bxCan_LoopBackMode.ioc" name="012_bxCan_LoopBackMode_IT.ioc" stamp="1731388154089" updateReferences="true"/>
+</session>

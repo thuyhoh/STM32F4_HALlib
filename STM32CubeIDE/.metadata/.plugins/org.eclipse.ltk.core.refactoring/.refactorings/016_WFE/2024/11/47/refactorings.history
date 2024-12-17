@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;016_WFE/015_WFI.ioc&apos; to &apos;016_WFE.ioc&apos;" description="Rename resource &apos;015_WFI.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="015_WFI.ioc" name="016_WFE.ioc" stamp="1731904342529" updateReferences="true"/>
+</session>

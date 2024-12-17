@@ -1,0 +1,10 @@
+21:50:03 **** Build of configuration Debug for project 001_Usart2_ex ****
+make -j12 all 
+arm-none-eabi-size  001_Usart2_ex.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8364	     16	   1656	  10036	   2734	001_Usart2_ex.elf
+Finished building: default.size.stdout
+ 
+
+21:50:04 Build Finished. 0 errors, 0 warnings. (took 1s.289ms)
+

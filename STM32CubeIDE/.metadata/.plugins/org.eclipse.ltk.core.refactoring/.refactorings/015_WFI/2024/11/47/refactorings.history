@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;015_WFI/014_LowPowerMode_SLEEPONEXIT.ioc&apos; to &apos;015_WFI.ioc&apos;" description="Rename resource &apos;014_LowPowerMode_SLEEPONEXIT.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="014_LowPowerMode_SLEEPONEXIT.ioc" name="015_WFI.ioc" stamp="1731901327599" updateReferences="true"/>
+</session>

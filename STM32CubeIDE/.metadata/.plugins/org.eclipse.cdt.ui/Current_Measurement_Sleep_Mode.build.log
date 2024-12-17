@@ -1,0 +1,79 @@
+19:17:47 **** Build of configuration Debug for project Current_Measurement_Sleep_Mode ****
+make -j12 all 
+arm-none-eabi-gcc "../StdPeriph_Driver/src/misc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I../Inc -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/core" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/device" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/StdPeriph_Driver/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"StdPeriph_Driver/src/misc.d" -MT"StdPeriph_Driver/src/misc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "StdPeriph_Driver/src/misc.o"
+arm-none-eabi-gcc "../StdPeriph_Driver/src/stm32f4xx_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I../Inc -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/core" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/device" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/StdPeriph_Driver/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_adc.d" -MT"StdPeriph_Driver/src/stm32f4xx_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "StdPeriph_Driver/src/stm32f4xx_adc.o"
+arm-none-eabi-gcc "../StdPeriph_Driver/src/stm32f4xx_can.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I../Inc -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/core" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/device" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/StdPeriph_Driver/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_can.d" -MT"StdPeriph_Driver/src/stm32f4xx_can.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "StdPeriph_Driver/src/stm32f4xx_can.o"
+arm-none-eabi-gcc "../StdPeriph_Driver/src/stm32f4xx_cec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I../Inc -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/core" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/device" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/StdPeriph_Driver/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cec.d" -MT"StdPeriph_Driver/src/stm32f4xx_cec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "StdPeriph_Driver/src/stm32f4xx_cec.o"
+arm-none-eabi-gcc "../StdPeriph_Driver/src/stm32f4xx_crc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I../Inc -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/core" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/device" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/StdPeriph_Driver/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_crc.d" -MT"StdPeriph_Driver/src/stm32f4xx_crc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "StdPeriph_Driver/src/stm32f4xx_crc.o"
+arm-none-eabi-gcc "../StdPeriph_Driver/src/stm32f4xx_cryp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I../Inc -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/core" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/device" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/StdPeriph_Driver/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cryp.d" -MT"StdPeriph_Driver/src/stm32f4xx_cryp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "StdPeriph_Driver/src/stm32f4xx_cryp.o"
+arm-none-eabi-gcc "../StdPeriph_Driver/src/stm32f4xx_cryp_aes.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I../Inc -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/core" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/device" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/StdPeriph_Driver/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cryp_aes.d" -MT"StdPeriph_Driver/src/stm32f4xx_cryp_aes.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "StdPeriph_Driver/src/stm32f4xx_cryp_aes.o"
+arm-none-eabi-gcc "../StdPeriph_Driver/src/stm32f4xx_cryp_des.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I../Inc -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/core" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/device" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/StdPeriph_Driver/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cryp_des.d" -MT"StdPeriph_Driver/src/stm32f4xx_cryp_des.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "StdPeriph_Driver/src/stm32f4xx_cryp_des.o"
+arm-none-eabi-gcc "../StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I../Inc -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/core" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/device" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/StdPeriph_Driver/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cryp_tdes.d" -MT"StdPeriph_Driver/src/stm32f4xx_cryp_tdes.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "StdPeriph_Driver/src/stm32f4xx_cryp_tdes.o"
+arm-none-eabi-gcc "../StdPeriph_Driver/src/stm32f4xx_dac.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I../Inc -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/core" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/device" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/StdPeriph_Driver/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dac.d" -MT"StdPeriph_Driver/src/stm32f4xx_dac.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "StdPeriph_Driver/src/stm32f4xx_dac.o"
+arm-none-eabi-gcc "../StdPeriph_Driver/src/stm32f4xx_dbgmcu.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I../Inc -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/core" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/device" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/StdPeriph_Driver/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dbgmcu.d" -MT"StdPeriph_Driver/src/stm32f4xx_dbgmcu.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "StdPeriph_Driver/src/stm32f4xx_dbgmcu.o"
+arm-none-eabi-gcc "../StdPeriph_Driver/src/stm32f4xx_dcmi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -c -I../Inc -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/core" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/CMSIS/device" -I"C:/Users/shrey/STM32CubeIDE/MasteringMCU2/Source_codes/STM32CubeIDE/MasteringMCU2/Current_Measurement_Sleep_Mode/StdPeriph_Driver/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dcmi.d" -MT"StdPeriph_Driver/src/stm32f4xx_dcmi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "StdPeriph_Driver/src/stm32f4xx_dcmi.o"
+../StdPeriph_Driver/src/stm32f4xx_crc.c:29:10: fatal error: stm32f4xx_crc.h: No such file or directory
+   29 | #include "stm32f4xx_crc.h"
+      |          ^~~~~~~~~~~~~~~~~
+../StdPeriph_Driver/src/misc.c:76:10: fatal error: misc.h: No such file or directory
+   76 | #include "misc.h"
+      |          ^~~~~~~~
+../StdPeriph_Driver/src/stm32f4xx_cec.c:93:10: fatal error: stm32f4xx_cec.h: No such file or directory
+   93 | #include "stm32f4xx_cec.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+../StdPeriph_Driver/src/stm32f4xx_can.c:84:10: fatal error: stm32f4xx_can.h: No such file or directory
+   84 | #include "stm32f4xx_can.h"
+      |          ^~~~~~~~~~~~~~~~~
+../StdPeriph_Driver/src/stm32f4xx_adc.c:106:10: fatal error: stm32f4xx_adc.h: No such file or directory
+  106 | #include "stm32f4xx_adc.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+compilation terminated.
+../StdPeriph_Driver/src/stm32f4xx_cryp.c:164:10: fatal error: stm32f4xx_cryp.h: No such file or directory
+  164 | #include "stm32f4xx_cryp.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [StdPeriph_Driver/src/subdir.mk:145: StdPeriph_Driver/src/stm32f4xx_cec.o] Error 1
+make: *** Waiting for unfinished jobs....
+../StdPeriph_Driver/src/stm32f4xx_cryp_aes.c:55:10: fatal error: stm32f4xx_cryp.h: No such file or directory
+   55 | #include "stm32f4xx_cryp.h"
+      |          ^~~~~~~~~~~~~~~~~~
+make: *** [StdPeriph_Driver/src/subdir.mk:145: StdPeriph_Driver/src/misc.o] Error 1
+compilation terminated.
+make: *** [StdPeriph_Driver/src/subdir.mk:145: StdPeriph_Driver/src/stm32f4xx_adc.o] Error 1
+make: *** [StdPeriph_Driver/src/subdir.mk:145: StdPeriph_Driver/src/stm32f4xx_can.o] Error 1
+make: *** [StdPeriph_Driver/src/subdir.mk:145: StdPeriph_Driver/src/stm32f4xx_cryp.o] Error 1
+make: *** [StdPeriph_Driver/src/subdir.mk:145: StdPeriph_Driver/src/stm32f4xx_crc.o] Error 1
+../StdPeriph_Driver/src/stm32f4xx_cryp_des.c:48:10: fatal error: stm32f4xx_cryp.h: No such file or directory
+   48 | #include "stm32f4xx_cryp.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+../StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c:48:10: fatal error: stm32f4xx_cryp.h: No such file or directory
+   48 | #include "stm32f4xx_cryp.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [StdPeriph_Driver/src/subdir.mk:145: StdPeriph_Driver/src/stm32f4xx_cryp_aes.o] Error 1
+../StdPeriph_Driver/src/stm32f4xx_dac.c:131:10: fatal error: stm32f4xx_dac.h: No such file or directory
+  131 | #include "stm32f4xx_dac.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [StdPeriph_Driver/src/subdir.mk:145: StdPeriph_Driver/src/stm32f4xx_cryp_des.o] Error 1
+make: *** [StdPeriph_Driver/src/subdir.mk:145: StdPeriph_Driver/src/stm32f4xx_cryp_tdes.o] Error 1
+../StdPeriph_Driver/src/stm32f4xx_dcmi.c:86:10: fatal error: stm32f4xx_dcmi.h: No such file or directory
+   86 | #include "stm32f4xx_dcmi.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [StdPeriph_Driver/src/subdir.mk:145: StdPeriph_Driver/src/stm32f4xx_dac.o] Error 1
+../StdPeriph_Driver/src/stm32f4xx_dbgmcu.c:29:10: fatal error: stm32f4xx_dbgmcu.h: No such file or directory
+   29 | #include "stm32f4xx_dbgmcu.h"
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [StdPeriph_Driver/src/subdir.mk:145: StdPeriph_Driver/src/stm32f4xx_dcmi.o] Error 1
+make: *** [StdPeriph_Driver/src/subdir.mk:145: StdPeriph_Driver/src/stm32f4xx_dbgmcu.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+19:17:48 Build Failed. 25 errors, 0 warnings. (took 410ms)
+

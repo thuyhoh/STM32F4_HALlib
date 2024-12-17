@@ -1,0 +1,10 @@
+21:50:08 **** Build of configuration Debug for project 005_timer_base_100ms ****
+make -j12 all 
+arm-none-eabi-size  005_timer_base_100ms.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3436	     12	   1644	   5092	   13e4	005_timer_base_100ms.elf
+Finished building: default.size.stdout
+ 
+
+21:50:09 Build Finished. 0 errors, 0 warnings. (took 329ms)
+

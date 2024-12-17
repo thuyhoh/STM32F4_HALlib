@@ -1,0 +1,1425 @@
+!SESSION 2024-11-27 11:49:53.081 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\.metadata\.bak_0.log
+Created Time: 2024-11-27 11:59:14.359
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-11-27 11:59:14.360
+!MESSAGE Error loading provider class=[fr.ac6.mcu.ide.build.CrossBuiltinSpecsDetector] in project=Current_Measurement_Standby_Mode, cfg=[fr.ac6.managedbuild.config.gnu.cross.exe.debug.1098225021]
+!STACK 1
+org.eclipse.core.runtime.CoreException: Not able to load provider class=fr.ac6.mcu.ide.build.CrossBuiltinSpecsDetector
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsExtensionManager.instantiateProviderClass(LanguageSettingsExtensionManager.java:283)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadProvider(LanguageSettingsProvidersSerializer.java:1160)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettingsInternal(LanguageSettingsProvidersSerializer.java:1054)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettings(LanguageSettingsProvidersSerializer.java:1197)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:508)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:471)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:342)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:270)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:90)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:931)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-11-27 11:59:14.360
+!MESSAGE Not able to load provider class=fr.ac6.mcu.ide.build.CrossBuiltinSpecsDetector
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-11-27 11:59:14.361
+!MESSAGE Error loading provider class=[fr.ac6.mcu.ide.build.CrossBuiltinSpecsDetector] in project=Current_Measurement_Standby_Mode, cfg=[fr.ac6.managedbuild.config.gnu.cross.exe.release.1184746085]
+!STACK 1
+org.eclipse.core.runtime.CoreException: Not able to load provider class=fr.ac6.mcu.ide.build.CrossBuiltinSpecsDetector
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsExtensionManager.instantiateProviderClass(LanguageSettingsExtensionManager.java:283)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadProvider(LanguageSettingsProvidersSerializer.java:1160)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettingsInternal(LanguageSettingsProvidersSerializer.java:1054)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettings(LanguageSettingsProvidersSerializer.java:1197)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:508)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:471)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:342)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:270)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:90)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:931)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-11-27 11:59:14.361
+!MESSAGE Not able to load provider class=fr.ac6.mcu.ide.build.CrossBuiltinSpecsDetector
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-11-27 11:59:14.361
+!MESSAGE Orphaned CDT build configuration [fr.ac6.managedbuild.config.gnu.cross.exe.debug.1098225021]: parent extension cfg [fr.ac6.managedbuild.config.gnu.cross.exe.debug] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:246)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:879)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:419)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:405)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:573)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:471)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:342)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:270)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:90)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:931)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-11-27 11:59:14.362
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.mcu" for "fr.ac6.managedbuild.option.gnu.cross.mcu.785524323"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-11-27 11:59:14.362
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.fpu" for "fr.ac6.managedbuild.option.gnu.cross.fpu.269720953"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-11-27 11:59:14.362
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.floatabi" for "fr.ac6.managedbuild.option.gnu.cross.floatabi.1454636621"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-11-27 11:59:14.363
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.board" for "fr.ac6.managedbuild.option.gnu.cross.board.468596711"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-11-27 11:59:14.363
+!MESSAGE Missing superclass "fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" for "fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.1280063199"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-11-27 11:59:14.364
+!MESSAGE Missing superclass "fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" for "fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.1246609726"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-11-27 11:59:14.378
+!MESSAGE Orphaned CDT build configuration [fr.ac6.managedbuild.config.gnu.cross.exe.release.1184746085]: parent extension cfg [fr.ac6.managedbuild.config.gnu.cross.exe.release] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:246)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:879)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:419)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:405)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:573)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:471)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:342)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:270)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:90)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:931)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-11-27 11:59:14.379
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.mcu" for "fr.ac6.managedbuild.option.gnu.cross.mcu.320569786"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-11-27 11:59:14.379
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.fpu" for "fr.ac6.managedbuild.option.gnu.cross.fpu.1259886997"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-11-27 11:59:14.379
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.floatabi" for "fr.ac6.managedbuild.option.gnu.cross.floatabi.1557497356"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-11-27 11:59:14.379
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.board" for "fr.ac6.managedbuild.option.gnu.cross.board.125383632"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-11-27 11:59:14.380
+!MESSAGE Missing superclass "fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" for "fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.1916683371"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-11-27 11:59:14.380
+!MESSAGE Missing superclass "fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" for "fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.1413385777"
+
+!ENTRY com.st.stm32cube.ide.mcu.converters 2 0 2024-11-27 11:59:16.166
+!MESSAGE Unknown value type "" for id fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level on tool fr.ac6.managedbuild.tool.gnu.cross.c.compiler
+!STACK 0
+org.eclipse.cdt.managedbuilder.core.BuildException: Unknown serialized value type 
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.deserializeValueType(AbstractCubeIDEProjectConfigurator.java:535)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.convertTool(AbstractCubeIDEProjectConfigurator.java:567)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.convertBuildConfiguration(AbstractCubeIDEProjectConfigurator.java:453)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.configure(AbstractCubeIDEProjectConfigurator.java:190)
+	at com.st.stm32cube.ide.mcu.converters.sw4stm32.SW4STM32ToCubeIDEProjectConfigurator.configure(SW4STM32ToCubeIDEProjectConfigurator.java:710)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.importProjectAndChildrenRecursively(SmartImportJob.java:461)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob$1.run(SmartImportJob.java:228)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.converters 2 0 2024-11-27 11:59:16.167
+!MESSAGE Unknown value type "" for id fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level on tool fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler
+!STACK 0
+org.eclipse.cdt.managedbuilder.core.BuildException: Unknown serialized value type 
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.deserializeValueType(AbstractCubeIDEProjectConfigurator.java:535)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.convertTool(AbstractCubeIDEProjectConfigurator.java:567)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.convertBuildConfiguration(AbstractCubeIDEProjectConfigurator.java:453)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.configure(AbstractCubeIDEProjectConfigurator.java:190)
+	at com.st.stm32cube.ide.mcu.converters.sw4stm32.SW4STM32ToCubeIDEProjectConfigurator.configure(SW4STM32ToCubeIDEProjectConfigurator.java:710)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.importProjectAndChildrenRecursively(SmartImportJob.java:461)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob$1.run(SmartImportJob.java:228)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.converters 4 0 2024-11-27 11:59:16.167
+!MESSAGE Option fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.noexceptions is no longer supported
+
+!ENTRY com.st.stm32cube.ide.mcu.converters 4 0 2024-11-27 11:59:16.167
+!MESSAGE Option fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.nortti is no longer supported
+
+!ENTRY com.st.stm32cube.ide.mcu.converters 4 0 2024-11-27 11:59:16.194
+!MESSAGE Option fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.noexceptions is no longer supported
+
+!ENTRY com.st.stm32cube.ide.mcu.converters 4 0 2024-11-27 11:59:16.195
+!MESSAGE Option fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.nortti is no longer supported
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-27 11:59:19.999
+!MESSAGE Indexed 'Current_Measurement_Standby_Mode' (48 sources, 104 headers) in 2.04 sec: 8,551 declarations; 26,215 references; 2 unresolved inclusions; 18 syntax errors; 7,554 unresolved names (18%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-27 11:59:43.448
+!MESSAGE Indexed 'Current_Measurement_Stop_Mode' (48 sources, 105 headers) in 1.9 sec: 8,936 declarations; 34,403 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-27 12:00:05.295
+!MESSAGE Indexed '017_Current_Measurement_Run_Mode' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-27 12:00:17.143
+!MESSAGE Indexed '018_Current_Measurement_Sleep_Mode' (48 sources, 105 headers) in 0.926 sec: 8,928 declarations; 35,081 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-27 12:00:24.620
+!MESSAGE Indexed '019_Current_Measurement_Standby_Mode' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-27 12:00:34.933
+!MESSAGE Indexed '020_Current_Measurement_Stop_Mode' (48 sources, 105 headers) in 0.854 sec: 8,936 declarations; 34,403 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.ui 4 0 2024-11-27 12:03:36.034
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.e4.core.contexts.IEclipseContext.get(java.lang.Class)" because the return value of "org.eclipse.e4.ui.model.application.ui.basic.MWindow.getContext()" is null
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4802)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:208)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.remove(NotifyingListImpl.java:725)
+	at org.eclipse.emf.common.util.AbstractEList.remove(AbstractEList.java:456)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.restore(MinMaxAddon.java:716)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.subscribeTopicTagsChanged(MinMaxAddon.java:414)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4802)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:208)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.remove(NotifyingListImpl.java:725)
+	at org.eclipse.emf.common.util.AbstractEList.remove(AbstractEList.java:456)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.unzoom(MinMaxAddon.java:926)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.subscribeTopicTagsChanged(MinMaxAddon.java:416)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4802)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:208)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.remove(NotifyingListImpl.java:725)
+	at org.eclipse.emf.common.util.AbstractEList.remove(AbstractEList.java:456)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.setState(MinMaxAddon.java:217)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon$2.mouseDoubleClick(MinMaxAddon.java:199)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.e4.core.contexts.IEclipseContext.get(java.lang.Class)" because the return value of "org.eclipse.e4.ui.model.application.ui.basic.MWindow.getContext()" is null
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.unzoom(MinMaxAddon.java:934)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.subscribeTopicTagsChanged(MinMaxAddon.java:416)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 98 more
+!SESSION 2024-11-27 22:02:11.935 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-11-27 22:28:39.100
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-11-27 22:28:39.108
+!MESSAGE Log4j2 initialized with config file E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:28:46.208
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:28:46.209
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:28:46.209
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:28:46.209
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-11-27 22:28:56.216
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.686
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.686
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.686
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.686
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.720
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.720
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.720
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.720
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.720
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.721
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.721
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.721
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.721
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.721
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.721
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.722
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.722
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.722
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.722
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.722
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.722
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.722
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.722
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.722
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.723
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.723
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.723
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.723
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.724
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.724
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.724
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:01.724
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.414
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.414
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.414
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.415
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.415
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.415
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.415
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.415
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.416
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.416
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.416
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.416
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.416
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.416
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.417
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.417
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.417
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.417
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.418
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.418
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.418
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.418
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.418
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.418
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.418
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.418
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.419
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-27 22:29:03.419
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-11-27 22:29:34.898
+!MESSAGE An internal error occurred during: "Update Job".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdatePlugin.getPreferenceStore()" because the return value of "org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdatePlugin.getDefault()" is null
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.removeUnusedPlugins(AutomaticUpdateScheduler.java:109)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1.run(AutomaticUpdateScheduler.java:80)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-11-29 08:34:42.026 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-11-29 08:35:38.749
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-11-29 08:35:38.757
+!MESSAGE Log4j2 initialized with config file E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:35:44.724
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:35:44.724
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:35:44.724
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:35:44.724
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-11-29 08:35:54.538
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.234
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.235
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.235
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.235
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.266
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.267
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.267
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.267
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.267
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.267
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.267
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.267
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.268
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.268
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.268
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.268
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.268
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.268
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.268
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.268
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.269
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.269
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.269
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.269
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.269
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.269
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.269
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.269
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.270
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.270
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.270
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:00.271
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.015
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.015
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.015
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.015
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.015
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.015
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.015
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.015
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.016
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.016
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.016
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.016
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.016
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.017
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.017
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.017
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.017
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.017
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.018
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.018
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.018
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.018
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.018
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.018
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.019
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.019
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.019
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 08:36:02.019
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+!SESSION 2024-11-29 11:56:25.281 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-11-29 11:56:46.786
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-11-29 11:56:46.795
+!MESSAGE Log4j2 initialized with config file E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:56:54.047
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:56:54.048
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:56:54.049
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:56:54.050
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-11-29 11:57:05.795
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.911
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.911
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.911
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.911
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.956
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.956
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.956
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.956
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.957
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.957
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.957
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.957
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.957
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.957
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.957
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.957
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.957
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.958
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.958
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.958
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.958
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.958
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.958
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.958
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.958
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.958
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.958
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.958
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.959
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.959
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.960
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:12.960
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.688
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.688
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.688
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.689
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.689
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.689
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.689
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.689
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.689
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.690
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.690
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.690
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.690
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.690
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.690
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.690
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.691
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.691
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.691
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.691
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.691
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.691
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.691
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.691
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.691
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.692
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.692
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 11:57:14.692
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+!SESSION 2024-11-29 18:49:17.637 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-11-29 18:49:37.674
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-11-29 18:49:37.682
+!MESSAGE Log4j2 initialized with config file E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:49:44.489
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:49:44.490
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:49:44.490
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:49:44.490
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-11-29 18:49:55.762
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.473
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.473
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.473
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.473
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.516
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.517
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.517
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.517
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.518
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.518
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.518
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.518
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.518
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.518
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.519
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.519
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.519
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.519
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.519
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.519
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.519
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.519
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.519
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.519
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.519
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.519
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.521
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.521
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.522
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.522
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.522
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:01.523
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.203
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.203
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.203
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.203
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.203
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.203
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.204
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.204
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.204
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.204
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.204
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.204
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.204
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.205
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.205
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.205
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.206
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.206
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.206
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.206
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.206
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.206
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.206
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.206
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.206
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.207
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.207
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-29 18:50:03.207
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+!SESSION 2024-11-30 12:44:59.102 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-11-30 12:45:25.586
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-11-30 12:45:25.593
+!MESSAGE Log4j2 initialized with config file E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:32.672
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:32.672
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:32.672
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:32.672
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-11-30 12:45:46.273
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.084
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.084
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.084
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.085
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.120
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.120
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.120
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.120
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.120
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.120
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.121
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.121
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.121
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.121
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.121
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.121
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.121
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.122
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.122
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.122
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.122
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.122
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.122
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.122
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.122
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.123
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.123
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.123
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.124
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.124
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.124
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:52.125
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.934
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.934
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.934
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.934
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.934
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.934
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.934
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.934
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.935
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.935
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.935
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.935
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.935
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.935
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.935
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.935
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.936
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.936
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.936
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.936
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.936
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.936
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.936
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.936
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.936
+!MESSAGE System property http.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.936
+!MESSAGE System property http.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.937
+!MESSAGE System property https.proxyHost is set to localhost but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-11-30 12:45:53.937
+!MESSAGE System property https.proxyPort is set to 8081 but should not be set.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-30 12:48:49.811
+!MESSAGE Indexed '022_RTC' (36 sources, 100 headers) in 4.37 sec: 7,831 declarations; 50,037 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)
