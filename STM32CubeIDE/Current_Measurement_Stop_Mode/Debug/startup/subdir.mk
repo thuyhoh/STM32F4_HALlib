@@ -16,7 +16,7 @@ S_DEPS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 startup/%.o: ../startup/%.s startup/subdir.mk
-	arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Stop_Mode/StdPeriph_Driver/inc" -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Stop_Mode/inc" -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Stop_Mode/CMSIS/device" -I"E:/Microcontroller/Stm32/stm32f40x/MCU2_HALlib/STM32CubeIDE/Current_Measurement_Stop_Mode/CMSIS/core" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -I"D:/Microcontroller/STM32F40x/STM32_HALlib/STM32CubeIDE/Current_Measurement_Stop_Mode/StdPeriph_Driver/inc" -I"D:/Microcontroller/STM32F40x/STM32_HALlib/STM32CubeIDE/Current_Measurement_Stop_Mode/inc" -I"D:/Microcontroller/STM32F40x/STM32_HALlib/STM32CubeIDE/Current_Measurement_Stop_Mode/CMSIS/device" -I"D:/Microcontroller/STM32F40x/STM32_HALlib/STM32CubeIDE/Current_Measurement_Stop_Mode/CMSIS/core" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
 
 clean: clean-startup
 

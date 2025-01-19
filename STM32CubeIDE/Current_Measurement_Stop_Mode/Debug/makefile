@@ -63,8 +63,8 @@ all: main-build
 main-build: Current_Measurement_Stop_Mode.elf secondary-outputs
 
 # Tool invocations
-Current_Measurement_Stop_Mode.elf Current_Measurement_Stop_Mode.map: $(OBJS) $(USER_OBJS) E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\Current_Measurement_Stop_Mode\LinkerScript.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Current_Measurement_Stop_Mode.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\Current_Measurement_Stop_Mode\LinkerScript.ld" --specs=nosys.specs -Wl,-Map="Current_Measurement_Stop_Mode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Current_Measurement_Stop_Mode.elf Current_Measurement_Stop_Mode.map: $(OBJS) $(USER_OBJS) D:\Microcontroller\STM32F40x\STM32_HALlib\STM32CubeIDE\Current_Measurement_Stop_Mode\LinkerScript.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Current_Measurement_Stop_Mode.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Microcontroller\STM32F40x\STM32_HALlib\STM32CubeIDE\Current_Measurement_Stop_Mode\LinkerScript.ld" --specs=nosys.specs -Wl,-Map="Current_Measurement_Stop_Mode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
