@@ -2,6 +2,27 @@
 <section name="Workbench">
 	<section name="ExternalProjectImportWizard">
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Microcontroller\STM32F40x\STM32_HALlib\STM32CubeIDE\Current_Measurement_Standby_Mode"/>
+			<item value="D:\Microcontroller\STM32F40x\STM32_HALlib\STM32CubeIDE\Current_Measurement_Sleep_Mode"/>
+			<item value="D:\Microcontroller\STM32F40x\STM32_HALlib\STM32CubeIDE\Current_Measurement_Run_Mode"/>
+			<item value="D:\Microcontroller\STM32F40x\STM32_HALlib\STM32CubeIDE\022_RTC"/>
+			<item value="D:\Microcontroller\STM32F40x\STM32_HALlib\STM32CubeIDE\021_BackupSRAM_StandbyMode"/>
+			<item value="D:\Microcontroller\STM32F40x\STM32_HALlib\STM32CubeIDE\011_bxCan_LoopBackMode_Filter"/>
+			<item value="D:\Microcontroller\STM32F40x\STM32_HALlib\STM32CubeIDE\014_LowPowerMode"/>
+			<item value="D:\Microcontroller\STM32F40x\STM32_HALlib\STM32CubeIDE\008_timer_IC"/>
+			<item value="D:\Microcontroller\STM32F40x\STM32_HALlib\STM32CubeIDE\005_timer_base_100ms"/>
+			<item value="D:\Microcontroller\STM32F40x\STM32_HALlib\STM32CubeIDE\004_Clock_a_PLL"/>
+			<item value="D:\Microcontroller\STM32F40x\STM32_HALlib\STM32CubeIDE\Current_Measurement_Stop_Mode"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\Current_Measurement_Stop_Mode"/>
+		</list>
 	</section>
 	<section name="SmartImportWizard">
 		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
@@ -9,6 +30,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Microcontroller\STM32F40x\STM32_HALlib\STM32CubeIDE\Current_Measurement_Run_Mode"/>
 			<item value="C:\Users\Asus\Downloads\MasteringMCU2-master\MasteringMCU2-master\Source_codes\OpenStm32SWB\MasteringMCU2\Current_Measurement_Stop_Mode"/>
 			<item value="E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\020_Current_Measurement_Standby_Mode"/>
 			<item value="E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\019_Current_Measurement_Stop_Mode"/>
@@ -18,6 +40,14 @@
 			<item value="E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\Current_Measurement_Standby_Mode"/>
 			<item value="E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\Current_Measurement_Sleep_Mode"/>
 			<item value="E:\Microcontroller\Stm32\stm32f40x\MCU2_HALlib\STM32CubeIDE\Current_Measurement_Run_Mode"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="596"/>
+		<item key="DIALOG_Y_ORIGIN" value="299"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
 		</list>
 	</section>
 </section>

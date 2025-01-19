@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="WWDG"/>
+		<item key="selection" value="RTC"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="WWDG"/>
-			<item value="PWR_MAINREGULATOR_ON"/>
-			<item value="PWR_PVD_detection_level"/>
-			<item value="#define WFI()&#x09;&#x09;__asm volatile (&quot;wfi&quot;)"/>
-			<item value="PWR_PVD_Mode"/>
-			<item value="PWR_RunPeriphDisabled180Mhz"/>
-			<item value="/* USER CODE BEGIN Header */"/>
-			<item value="pin_0"/>
-			<item value="exti"/>
-			<item value="sleep"/>
-			<item value="filter"/>
-			<item value="(+)"/>
-			<item value="can"/>
-			<item value="CAN_IT_TX_MAILBOX_EMPTY | CAN_IT_RX_FIFO0_MSG_PENDING | CAN_IT_BUSOFF"/>
+			<item value="rtc"/>
+			<item value="update event "/>
+			<item value="ElapsedCallback"/>
+			<item value="update event"/>
+			<item value="event"/>
+			<item value="ex"/>
+			<item value="exca"/>
+			<item value="Callback"/>
+			<item value="date"/>
+			<item value="set"/>
+			<item value="hal_rcc_"/>
+			<item value="hal_rtc"/>
+			<item value="RTC_WeekDay_Definitions"/>
+			<item value="RTC_Month_Date_Definitions"/>
+			<item value="pa0"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>

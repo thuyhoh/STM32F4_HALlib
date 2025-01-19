@@ -1,13 +1,14 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:008_timer_IC,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:009_timer_OC,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:010_timer_PWM,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:011_bxCan_LoopBackMode,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:012_bxCan_LoopBackMode_IT,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:013_bxCan_NormalMode
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:010_timer_PWM,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:012_bxCan_LoopBackMode_IT,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:013_bxCan_NormalMode,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:008_timer_IC,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:008_timer_IC (1),org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:009_timer_OC,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:011_bxCan_LoopBackMode
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:008_timer_IC/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:008_timer_IC/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:008_timer_IC_1/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:008_timer_IC_1/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:009_timer_OC/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:009_timer_OC/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:010_timer_PWM/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:011_bxCan_LoopBackMode/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:012_bxCan_LoopBackMode_IT/activeLaunchMode=debug
