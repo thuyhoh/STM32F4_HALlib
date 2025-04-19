@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"007_adc_multiple_channels_without_dma\startup_stm32f407xx.o"
+"007_adc_multiple_channels_without_dma\main.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_it.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_msp.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_adc.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_adc_ex.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_ll_adc.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_rcc.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_rcc_ex.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_flash.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_flash_ex.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_flash_ramfunc.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_gpio.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_dma_ex.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_dma.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_pwr.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_pwr_ex.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_cortex.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal.o"
+"007_adc_multiple_channels_without_dma\stm32f4xx_hal_exti.o"
+"007_adc_multiple_channels_without_dma\system_stm32f4xx.o"
+--strict --scatter "007_ADC_Multiple_Channels_Without_DMA\007_ADC_Multiple_Channels_Without_DMA.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "007_ADC_Multiple_Channels_Without_DMA.map" -o 007_ADC_Multiple_Channels_Without_DMA\007_ADC_Multiple_Channels_Without_DMA.axf
